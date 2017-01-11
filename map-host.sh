@@ -15,7 +15,7 @@ SILENT=''
 
 HELP () {
   _info_ "Help"
-  _info "-a | alias"
+  _info "-a | alias -- ssh host alias"
   _info "-c | clean/remove host map"
   _info "-d | dry run"
   _info "-f | hosts file"
