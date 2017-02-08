@@ -8,9 +8,8 @@ CLEAN=""
 HOSTS_FILE="/etc/hosts"
 SSH_CONFIG_FILE="$HOME/.ssh/config"
 HOST_NAME=""
-DOMAIN="kroger.com"
 IP=""
-USER="cloud"
+USER=$(whoami)
 SILENT=''
 
 HELP () {
